@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hi My Love 💗</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE BACKGROUND */
+body {
+  background: linear-gradient(#ffd6ec, #f3c1da);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comic Neue', cursive;
+}
+
+/* OUTER CARD */
+.wrapper {
+  background: #f7cfe3;
+  border-radius: 25px;
+  padding: 30px 20px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  animation: fadeIn 1.2s ease;
+}
+
+/* TITLE */
+.title {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* SCREEN */
+.screen {
+  background: #e9e5dc;
+  border-radius: 18px;
+  padding: 30px 20px 40px;
+  position: relative;
+  box-shadow: inset 0 0 0 8px #111;
+}
+
+/* TEXT */
+h1 {
+  color: #c94b5a;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #a33c4b;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* HEART STICKER */
+.heart {
+  position: absolute;
+  right: 20px;
+  top: 85px;
+  font-size: 2.3rem;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: #d56b7b;
+  color: #fff;
+  padding: 10px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 0 #b84f5f;
+  transition: transform 0.15s;
+}
+
+.btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #b84f5f;
+}
+
+/* ANIMATIONS */
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="title">Neon Aura Notes</div>
+
+  <div class="screen">
+    <h1>Hi My Love</h1>
+
+    <p>
+      I made something for you…<br>
+      want to see?
+    </p>
+
+    <div class="heart">💗</div>
+
+    <a href="html/comain.html" class="btn">
+      See My Surprise
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
